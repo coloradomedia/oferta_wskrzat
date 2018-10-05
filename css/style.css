@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.selector-for-some-widget {
+	box-sizing: content-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: rgba(255, 255, 255) !important;
+	z-index: 1000;
+}
+
+.navbar-brand {
+	font-size: 1rem;
+	padding: 0;
+	padding-left: 1%;
+}
+
+.navbar-brand img {
+	max-width: 13rem;
+	;
+}
+
+.nav-item {
+	font-size: 1.3rem;
+	padding: 0 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.nav-item a {
+	color: #000 !important;
+}
+
+.container-fluid {
+	padding: 1%;
+}
+
+#home {
+	background: url(../img/mounts.jpeg) no-repeat center fixed;
+	max-width: 100%;
+	min-height: 75%;
+}
+
+.landing-text {
+	position: relative;
+	background-size: cover;
+	z-index: 2;
+	top: 30vh;
+	text-align: center;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0px 5px 9px rgba(150, 150, 150, 0.4);
+}
+
+.bgcol {
+	padding: 2.5em 0;
+	background-color: rgba(0, 0, 0, .45);
+}
+
+.padding {
+	padding: 40px 0;
+}
+
+.pad1 {
+	position: absolute;
+	padding: 40px 0;
+	top: 25em;
+}
+
+.pad2 {
+	color: #fff;
+	background-color: transparent;
+	font-size: 1.3em;
+	text-align: center;
+	padding-top: 3em;
+}
+
+.padding img {
+	width: 100%;
+}
+
+.container-fluid {
+	margin: 0;
+}
+
+.circle {
+	font-size: 2rem;
+	font-weight: bold;
+	position: relative;
+	top: -120px;
+}
+
+.circle img {
+	max-width: 150px;
+}
+
+.circle a {
+	text-decoration: none;
+	color: #000;
+}
+
+#fixed {
+	background: url(../img/bokeh2.jpeg) no-repeat center center fixed;
+	display: table;
+	height: 40%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#fixed2 {
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+/* FOOTER */
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+footer .container-fluid {
+	background-color: #3e2f42;
+	padding-top: 2%;
+	color: #fff;
+}
+
+hr.light-100 {
+	border-top: 1px solid #fff;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+footer h5 {
+	margin-bottom: 1rem;
+}
+
+/* STRZAŁKA */
+
+section::after {
+	position: absolute;
+	bottom: 300px;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 80%;
+}
+
+.demo a {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	z-index: 2;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	color: #fff;
+	transition: opacity .3s;
+}
+
+.demo a:hover {
+	opacity: .5;
+}
+
+#section05 a {
+	padding-top: 45px;
+}
+
+#section05 a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-animation: sdb05 1.5s infinite;
+	animation: sdb05 1.5s infinite;
+	box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb05 {
+	0% {
+		-webkit-transform: rotate(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: rotate(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+
+@keyframes sdb05 {
+	0% {
+		transform: rotate(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: rotate(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+
+#start {
+	padding-top: 60px;
+}
+
+/* STRZAŁKA KONIEC */
+
+.navbar-toggler {
+	border: none;
+}
+
+.slider img {
+	margin: 0 auto;
+	max-width: 200px;
+}
+
+.slider {
+	height: 170px;
+}
+
+.brand img {
+	max-width: 160px;
+	;
+}
+
+.wbcar {
+	background: url(../img/ipadotomoto2.jpg) center no-repeat;
+	color: #fff;
+	font-size: 1.1rem;
+	padding-top: 2.3rem;
+}
+
+.logo_audi {
+	padding-top: 180px;
+}
+
+.wbcar img {
+	max-width: 300px;
+	;
+}
+
+.b-bottom {
+	content: "";
+	padding-top: 30px;
+	width: 70%;
+	height: 2px;
+	display: block;
+	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	margin: 0 auto;
+}
+
+.b-bottom-audi {
+	content: "";
+	padding-top: 25px;
+	width: 55%;
+	height: 2px;
+	display: block;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+	margin: 0 auto;
+}
+
+.b-bottom-contact {
+	content: "";
+	padding-top: 25px;
+	width: 80%;
+	height: 2px;
+	display: block;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	margin: 0 auto;
+}
+
+.contact {
+	font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+	#home {
+		min-height: 100%;
+	}
+
+	.media-none {
+		display: none;
+	}
+
+	.landing-text h1 {
+		font-size: 370%;
+	}
+
+	.circle {
+		display: none;
+	}
+
+	#section05 a span {
+		border-color: #fff;
+	}
+
+	.logo_audi {
+		display: none;
+	}
+
+	.wb {
+		margin: 20px;
+	}
+
+	.contact {
+		padding-top: 20px;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	#home {
+		min-height: 100%;
+	}
+
+	.media-none {
+		display: none;
+	}
+
+	.landing-text h1 {
+		font-size: 390%;
+	}
+
+	.circle {
+		display: none;
+	}
+
+	#section05 a span {
+		border-color: #fff;
+	}
+
+	.logo_audi {
+		display: none;
+	}
+
+	.wb {
+		margin: 20px;
+	}
+
+	.contact {
+		padding-top: 20px;
+	}
+
+	iframe {
+		width: 100%;
+	}
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+	.landing-text h1 {
+		font-size: 390%;
+	}
+
+	#section05 a span {
+		border-color: #fff;
+	}
+
+	.logo_audi {
+		display: none;
+	}
+
+	.wb {
+		margin: 20px;
+	}
+
+	.contact {
+		padding-top: 20px;
+	}
+
+	iframe {
+		width: 100%;
+	}
+}
